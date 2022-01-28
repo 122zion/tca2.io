@@ -1,0 +1,46 @@
+h1,
+li,
+h2 {
+  text-align: center;
+  font-family: "Comforter", cursive;
+  font-size: 30px;
+  list-style-position: inside;
+}
+p {
+  text-align: center;
+  font-family: "Comforter", cursive;
+  font-size: 25px;
+  list-style-position: inside;
+}
+
+.row > div {
+  background: lightgrey;
+  border: 1px solid grey;
+}
+.navbar-brand {
+  font-family: "Comforter", cursive;
+  font-size: 35px;
+}
+.nav-link {
+  font-family: "Comforter", cursive;
+  font-size: 25px;
+}
+.numbers {
+  font-family: "Comforter", cursive;
+  text-align: center;
+  font-size: 45px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 300px;
+}
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 300px;
+}
