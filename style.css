@@ -9,38 +9,60 @@ h2 {
 p {
   text-align: center;
   font-family: "Comforter", cursive;
-  font-size: 25px;
+  font-size: 55px;
   list-style-position: inside;
+}
+li:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .row > div {
-  background: lightgrey;
-  border: 1px solid grey;
+  background: #e9afc0;
 }
 .navbar-brand {
   font-family: "Comforter", cursive;
   font-size: 35px;
+  background-color: #e9afc0;
 }
 .nav-link {
   font-family: "Comforter", cursive;
   font-size: 25px;
+  background-color: #e9afc0;
+}
+.container-fluid {
+  background-color: #e9afc0;
+}
+nav {
+  background-color: #e9afc0;
+}
+#intro {
+  background-color: #e9afc0;
 }
 .numbers {
   font-family: "Comforter", cursive;
   text-align: center;
   font-size: 45px;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 250px;
-  width: 300px;
-}
+.center,
 .center1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 250px;
   width: 300px;
+}
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 320px;
+  width: 300px;
+}
+.center:hover,
+.center1:hover {
+  -ms-transform: scale(4.5);
+  -webkit-transform: scale(4.5);
+  transform: scale(1.5);
 }
